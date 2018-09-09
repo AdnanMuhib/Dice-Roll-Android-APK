@@ -86,7 +86,13 @@
         android:background="@android:color/holo_green_dark"
         android:text="Roll Dice"
         android:textColor="@android:color/white" />
-
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dice"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="260dp"
+        />
     <Button
         android:id="@+id/btnNewGame"
         android:layout_width="match_parent"
